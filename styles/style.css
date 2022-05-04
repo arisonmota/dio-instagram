@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.insta-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.insta-phone img {
+    height: 50rem;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.insta-logo{
+    height: 7rem;
+}
+
+.insta-login-signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.insta-login-signup .credentials {
+    margin-top: 1rem;
+}
+
+.insta-login-signup:nth-child(1) {
+    min-height: 19rem;
+}
+
+.insta-login-signup button {
+    background-color: #0095f6;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 1rem;
+}
+
+.signin-fb {
+    color: #385185;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.forgot-passwd {
+    color: #00376b;
+
+}
